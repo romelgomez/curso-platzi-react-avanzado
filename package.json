@@ -6,6 +6,7 @@
     "author": "Romel Javier Gomez Herrera <bmxandcode@gmail.com>",
     "license": "MIT",
     "scripts": {
+        "now-build": "yarn run build",
         "build": "webpack",
         "dev": "webpack-dev-server",
         "link": "standard"
