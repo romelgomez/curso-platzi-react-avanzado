@@ -1,0 +1,8 @@
+{
+  "name": "curso-platzi-react-avanzado",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:romelgomez/curso-platzi-react-avanzado.git",
+  "author": "Romel Javier Gomez Herrera <bmxandcode@gmail.com>",
+  "license": "MIT"
+}
