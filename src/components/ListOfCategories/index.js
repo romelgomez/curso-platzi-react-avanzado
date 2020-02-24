@@ -4,11 +4,12 @@ import {
   List,
   Item
 } from './styles'
+import { categories } from '../../../api/db.json'
 
 export const ListOfCaterories = () => {
   return (
     <List>
-      {[1, 2, 3, 4].map(category => <Item key={category}><Category /></Item>)}
+      {categories.map(category => <Item key={category.key}><Category {...category} /></Item>)}
     </List>
   )
 }
