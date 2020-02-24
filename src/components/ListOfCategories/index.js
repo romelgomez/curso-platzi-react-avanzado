@@ -9,7 +9,7 @@ import { categories } from '../../../api/db.json'
 export const ListOfCaterories = () => {
   return (
     <List>
-      {categories.map(category => <Item key={category.key}><Category {...category} /></Item>)}
+      {categories.map(category => <Item key={category.id}><Category {...category} /></Item>)}
     </List>
   )
 }
