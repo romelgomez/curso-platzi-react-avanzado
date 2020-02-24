@@ -10,7 +10,7 @@ export const PhotoCard = ({ id = '', likes = 0, src = DEFAULT_IMAGE }) => (
       <ImgWrapper>
         <Img src={src} />
       </ImgWrapper>
-      <Button>{likes} <MdFavoriteBorder /></Button>
     </a>
+    <Button><MdFavoriteBorder size='32px' /> {likes} likes! </Button>
   </article>
 )
