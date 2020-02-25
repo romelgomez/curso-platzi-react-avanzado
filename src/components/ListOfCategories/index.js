@@ -7,7 +7,6 @@ import {
 import { categories as categoriesMock } from '../../../api/db.json'
 
 export const ListOfCaterories = () => {
-
   const [categories, setCategories] = useState(categoriesMock)
 
   useEffect(() => {
