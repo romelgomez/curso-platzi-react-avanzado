@@ -1,6 +1,11 @@
 import styled from 'styled-components'
+import {
+  // fadeIn,
+  bounceDown
+} from '../../styles/animations'
 
 export const List = styled.ul`
+  ${bounceDown({ time: '1s' })};
   display: flex;
   overflow: scroll;
   width: 100%;
@@ -22,5 +27,4 @@ export const List = styled.ul`
 
 export const Item = styled.li`
   padding: 0 8px;
-  text-align: center;
 `
