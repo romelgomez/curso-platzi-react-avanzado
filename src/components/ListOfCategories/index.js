@@ -17,9 +17,16 @@ export const ListOfCaterories = () => {
       })
   }, [])
 
-  return (
-    <List>
+  const renderList = (fixed = false) => (
+    <List className={fixed ? 'fixed' : ''}>
       {categories.map(category => <Item key={category.id}><Category {...category} /></Item>)}
     </List>
+  )
+
+  return (
+    <fragment>
+      {renderList(true)}
+      {renderList()}
+    </fragment>
   )
 }
